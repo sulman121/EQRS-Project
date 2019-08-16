@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DefaultRunner (2)" project="Savynt" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="Runner.DefaultRunner" time="47.523">
+    <testsuite name="Feature: Access for Dev3" time="16.262">
+      <testcase name="user get access for DEV 3" classname="Access for Dev3" time="16.262"/>
+    </testsuite>
+    <testsuite name="Feature: Savynt Access" time="31.261">
+      <testcase name="LOA3 and No MFA" classname="Savynt Access" time="31.261">
+        <error>java.lang.IndexOutOfBoundsException: Index: 15, Size: 15&#13;
+	at java.util.ArrayList.rangeCheck(Unknown Source)&#13;
+	at java.util.ArrayList.get(Unknown Source)&#13;
+	at Steps.GUIStepDefination.user_gave_NO_MFA_Access(GUIStepDefination.java:68)&#13;
+	at ✽.user gave NO MFA Access(file:src/test/resources/Features/SavyntAccess.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

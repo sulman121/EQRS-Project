@@ -1,0 +1,94 @@
+package Steps;
+
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import ExcelReader.ReadExcel;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import cucumber.api.java.en.Given;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class GUIStepDefination {
+
+	WebDriver driver;
+	ReadExcel Readexcel = new ReadExcel("C:\\Users\\ca2543\\HarpRegistration\\HarpUsers\\TEST.xlsx");
+
+	@Before
+	public void pre_testing() throws IOException {
+
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+
+		driver.get("https://sbx.harp.qualitynet.org/register/profile-info");
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	}
+
+	@Given("user is at Registation Page and enter all info")
+	public void user_is_at_homepage() throws InterruptedException {
+		String title = driver.getTitle();
+		System.out.println(title);
+
+		int rowCount = Readexcel.getRowCount("sheet1");
+		for (int rowNum = 2; rowNum <= rowCount; rowNum++) {
+			driver.findElement(By.xpath("//input[@name='firstname']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "FirstName", rowNum));
+			driver.findElement(By.xpath("//input[@name='lastname']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "LastName", rowNum));
+
+			driver.findElement(By.xpath("//input[@name='dateOfBirth']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "DOB", rowNum));
+
+			driver.findElement(By.xpath("//input[@name='email']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "Email", rowNum));
+			driver.findElement(By.xpath("//input[@name='confirmEmailAddress']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "ConfirmEmail", rowNum));
+			driver.findElement(By.xpath("//input[contains(@name,'phoneNumber')]"))
+					.sendKeys(Readexcel.getCellData("sheet1", "phonenumber", rowNum));
+			driver.findElement(By.xpath("//input[contains(@name,'addressLine1')]"))
+					.sendKeys(Readexcel.getCellData("sheet1", "Address", rowNum));
+			driver.findElement(By.xpath("//input[@name='city']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "City", rowNum));
+			driver.findElement(By.xpath("//select[@name='state']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "State", rowNum));
+
+			driver.findElement(By.xpath("//input[@name='zipCode']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "Zipcode", rowNum));
+
+			driver.findElement(By.xpath("//input[@name='socialSecurityNumber']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "SSN", rowNum));
+			driver.findElement(By.xpath("//input[@id='termsCheckbox']")).click();
+			driver.findElement(By.xpath("//button[@id='profInfoSaveNextBtn']")).click();
+			Thread.sleep(3000);
+			driver.findElement(By.xpath("//input[@name='username']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "UserID", rowNum));
+			driver.findElement(By.xpath("//input[@name='password']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "Password", rowNum));
+			driver.findElement(By.xpath("//input[@name='confirmPassword']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "confirm Password", rowNum));
+			Select select = new Select(driver.findElement(By.xpath("//select[@name='customproperty38']")));
+			select.selectByIndex(7);
+			driver.findElement(By.xpath("//input[@name='ecp2']"))
+					.sendKeys(Readexcel.getCellData("sheet1", "Chall_Quest", rowNum));
+			driver.findElement(By.xpath("//button[@type='submit']")).click();
+			Thread.sleep(12000);
+			driver.findElement(By.xpath("//button[contains(.,'Back')]")).click();
+
+		}
+
+	}
+
+//	@After
+//	public void teardown() throws InterruptedException {
+//		Thread.sleep(3000);
+//		driver.quit();
+//	}
+
+}

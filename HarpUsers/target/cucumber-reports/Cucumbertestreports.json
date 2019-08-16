@@ -1,0 +1,111 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-15T15:40:17.249Z",
+        "before": [
+          {
+            "result": {
+              "duration": 727794,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "GUIStepDefination.pre_testing()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Creating Users",
+        "description": "",
+        "id": "registration-page;creating-users",
+        "after": [
+          {
+            "result": {
+              "duration": 22974,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "GUIStepDefination.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36923,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is at Registation Page and enter all info",
+            "match": {
+              "location": "GUIStepDefination.user_is_at_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Registration Page",
+    "description": "",
+    "id": "registration-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Registration.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-15T15:40:17.315Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8615,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "GUIStepDefination.pre_testing()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "LOA3 and No MFA",
+        "description": "",
+        "id": "savynt-access;loa3-and-no-mfa",
+        "after": [
+          {
+            "result": {
+              "duration": 7795,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "GUIStepDefination.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is at savynt login page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Savynt Access",
+    "description": "",
+    "id": "savynt-access",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SavyntAccess.feature",
+    "tags": []
+  }
+]

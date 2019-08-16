@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BankOfAmerica&apos; to &apos;HarpRegistationpage&apos;" description="Rename resource &apos;BankOfAmerica&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/BankOfAmerica" name="HarpRegistationpage" stamp="1565718221339" updateReferences="true"/>
+</session>

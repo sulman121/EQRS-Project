@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DefaultRunner (2)" project="Savynt" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="Runner.DefaultRunner" time="133.636">
+    <testsuite name="Feature: Access for Dev3" time="16.352">
+      <testcase name="user get access for DEV 3" classname="Access for Dev3" time="16.352"/>
+    </testsuite>
+    <testsuite name="Feature: Savynt Access" time="117.284">
+      <testcase name="LOA3 and No MFA" classname="Savynt Access" time="117.284"/>
+    </testsuite>
+  </testsuite>
+</testrun>

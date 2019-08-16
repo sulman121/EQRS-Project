@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DefaultRunner (2)" project="Savynt" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="Runner.DefaultRunner" time="130.48">
+    <testsuite name="Feature: Access for Dev3" time="15.634">
+      <testcase name="user get access for DEV 3" classname="Access for Dev3" time="15.634"/>
+    </testsuite>
+    <testsuite name="Feature: Savynt Access" time="114.846">
+      <testcase name="LOA3 and No MFA" classname="Savynt Access" time="114.846">
+        <error>org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=comments_global
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NWEDL-CKYX1N2', ip: '10.0.251.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)&#13;
+	at org.openqa.selenium.By$ById.findElement(By.java:188)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;
+	at Steps.GUIStepDefination.user_gave_NO_MFA_Access(GUIStepDefination.java:81)&#13;
+	at ✽.user gave NO MFA Access(file:src/test/resources/Features/SavyntAccess.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
