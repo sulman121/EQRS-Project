@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-16T16:09:11.938Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8102415054,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GUIStepDefination.pre_testing()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user get access for DEV 3",
+        "description": "",
+        "id": "access-for-dev3;user-get-access-for-dev-3",
+        "after": [
+          {
+            "result": {
+              "duration": 3787977287,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GUIStepDefination.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3800499938,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is at savynt login page",
+            "match": {
+              "location": "GUIStepDefination.user_is_at_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 210758414656,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Get the Access",
+            "match": {
+              "location": "GUIStepDefination.user_Get_the_Access()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Access for Dev3",
+    "description": "",
+    "id": "access-for-dev3",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AccessDev3.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-16T16:12:58.410Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13830513439,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GUIStepDefination.pre_testing()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "LOA3 and No MFA",
+        "description": "",
+        "id": "savynt-access;loa3-and-no-mfa",
+        "after": [
+          {
+            "result": {
+              "duration": 3745562980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GUIStepDefination.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4250411589,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is at savynt login page",
+            "match": {
+              "location": "GUIStepDefination.user_is_at_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Savynt Access",
+    "description": "",
+    "id": "savynt-access",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SavyntAccess.feature",
+    "tags": []
+  }
+]

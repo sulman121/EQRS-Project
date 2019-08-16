@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DefaultRunner (2)" project="Savynt" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="Runner.DefaultRunner" time="85.137">
+    <testsuite name="Feature: Access for Dev3" time="49.749">
+      <testcase name="user get access for DEV 3" classname="Access for Dev3" time="49.749">
+        <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/table[1]/tbody[1]/tr[13]/td[1][13]/td[1]"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NWEDL-CKYX1N2', ip: '10.0.251.147', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ca2543\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b08375012aa225e96571d40a37098d8e
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[1]/table[1]/tbody[1]/tr[13]/td[1][13]/td[1]}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;
+	at Steps.GUIStepDefination.user_Get_the_Access(GUIStepDefination.java:114)&#13;
+	at ✽.user Get the Access(file:src/test/resources/Features/AccessDev3.feature:7)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Feature: Savynt Access" time="35.388">
+      <testcase name="LOA3 and No MFA" classname="Savynt Access" time="35.388"/>
+    </testsuite>
+  </testsuite>
+</testrun>

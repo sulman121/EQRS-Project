@@ -1467,3 +1467,27 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact stax:stax-api
 2019-08-16 10:28:25,499 [Worker-96: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ca2543\HarpRegistration\Savynt\src\main\resources
 2019-08-16 10:28:25,501 [Worker-96: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-08-16 10:28:25,502 [Worker-96: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-08-16 11:45:06,865 [Worker-102: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:45:06,865 [Worker-102: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ca2543\HarpRegistration\Savynt\src\main\resources
+2019-08-16 11:45:06,865 [Worker-102: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:45:06,865 [Worker-102: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-08-16 11:51:08,746 [Worker-102: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:51:08,746 [Worker-102: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ca2543\HarpRegistration\Savynt\src\main\resources
+2019-08-16 11:51:08,746 [Worker-102: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:51:08,746 [Worker-102: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-08-16 11:51:24,699 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:51:24,699 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ca2543\HarpRegistration\Savynt\src\main\resources
+2019-08-16 11:51:24,699 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:51:24,699 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-08-16 11:56:15,599 [Worker-116: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:56:15,599 [Worker-116: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ca2543\HarpRegistration\Savynt\src\main\resources
+2019-08-16 11:56:15,599 [Worker-116: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:56:15,599 [Worker-116: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-08-16 11:57:33,405 [Worker-118: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:57:33,405 [Worker-118: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ca2543\HarpRegistration\Savynt\src\main\resources
+2019-08-16 11:57:33,405 [Worker-118: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:57:33,405 [Worker-118: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-08-16 11:59:54,634 [Worker-119: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:59:54,634 [Worker-119: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ca2543\HarpRegistration\Savynt\src\main\resources
+2019-08-16 11:59:54,634 [Worker-119: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-08-16 11:59:54,634 [Worker-119: Launching DefaultRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources

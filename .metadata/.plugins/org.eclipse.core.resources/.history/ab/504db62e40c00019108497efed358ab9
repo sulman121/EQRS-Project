@@ -121,9 +121,7 @@ public class GUIStepDefination<WebElements> {
             driver.findElement(By.xpath("//input[@id='customproperty1']")).clear();
             driver.findElement(By.xpath("//input[@id='customproperty1']")).sendKeys("3");
             driver.findElement(By.xpath("//a[contains(text(),'Update')]")).click();
-           
-            
-            driver.findElement(By.id("ADMIN")).click();
+            driver.findElement(By.xpath("//li[@id='accnts']//a[1]")).click();
     		driver.findElement(By.id("dtsearch_usersList")).sendKeys("professor");
     		driver.findElement(By.id("search_usersList")).click();
     		Thread.sleep(2000);
